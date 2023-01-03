@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.content{
+    display: flex;
+    flex-basis: calc(50% - 5px);
+    padding-top: 30px;
+}
+
+.image{
+    margin-right: 30px;
+    height: 160px;
+}
+
+.title{
+    color: rgb(151, 119, 38);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.title:hover {
+    text-decoration-line: underline;
+}
+
+.introduction{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.more{
+    color: rgb(151, 119, 38);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.more:hover {
+    text-decoration-line: underline;
+}
+
+.text{
+    width: 300px;
+    /* height: 160; */
+}

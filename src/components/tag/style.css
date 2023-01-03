@@ -1,0 +1,14 @@
+.tagCon {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    margin-top: 5px;
+    justify-content: space-between;
+    margin-left: 5px;
+    padding: 8px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    color: rgb(101, 99, 99);
+}

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topic {
+    font-size: 35px;
+}
+
+.line {
+    width: 3em;
+    height: 0.2em;
+    margin-top: 0;
+    margin-bottom: 3em;
+    background-color: rgb(151, 119, 38);
+    text-decoration: underline;
+    align-self: center;
+    justify-content: center;
+}
+
+.date {
+    font-size: 12pt;
+    font-weight: 600;
+    color: rgb(54, 50, 50);
+}
+
+.messageCon {
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: large;
+    color: rgb(54, 50, 50);
+    font-weight: 600;
+}
+
+.comment {
+    margin-top: 3em;
+    color: rgb(54, 50, 50);
+    margin-bottom: 8px;
+}
