@@ -36,7 +36,9 @@ export default function Blog () {
 
                     <div className="commentCon">
                         <p className="comment">Comments</p>
-                        <textarea/>
+                        <textarea
+                            placeholder="Write message here"
+                        />
                     </div>
                 </div>
 
